@@ -63,12 +63,8 @@ Ensure your system has an active internet connection, as the script makes HTTP r
 
 ---
 
-6. Permissions
-The script writes the generated `plan_id` to a JSON file (`plan_data.json`). Ensure the directory where the script runs has the necessary write permissions.
 
----
-
-7. Run the Script
+6. Run the Script
 Use the following command to execute the script:
 ```bash
 node your_script_file_name.js
@@ -76,7 +72,7 @@ node your_script_file_name.js
 
 ---
 
-8. Debugging
+7. Debugging
 - Check for errors in the console output if the script fails.
 - Ensure that the `api_keys.json` file is correctly formatted.
 - Verify that the API keys are valid and match the environment (Test or Production).
